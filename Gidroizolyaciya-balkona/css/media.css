@@ -1,0 +1,294 @@
+/*==========  DESKTOP FIRST METHOD  ==========*/
+/*========== Large Devices, Wide Screens ==========*/
+/*========== Medium Devices, Desktops ==========*/
+@media only screen and (max-width: 991px) {
+	.hc-phone {
+		font-size: 26px;
+	}
+	.hm-site-descr {
+		font-size: 11px;
+	}
+	.kind-groups-slider .owl-item .kgs-item {
+		-webkit-transform: scale(0.7);
+		   -moz-transform: scale(0.7);
+		    -ms-transform: scale(0.7);
+		     -o-transform: scale(0.7);
+		        transform: scale(0.7);
+	}
+	.kind-groups-slider .owl-item.center .kgs-item {
+		-webkit-transform: scale(1);
+		   -moz-transform: scale(1);
+		    -ms-transform: scale(1);
+		     -o-transform: scale(1);
+		        transform: scale(1);
+	}
+	.fts-item {
+		padding-right: 25px;
+	}
+	.map-wrap {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		   -moz-box-orient: vertical;
+		   -moz-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: stretch;
+		-webkit-align-items: stretch;
+		   -moz-box-align: stretch;
+		    -ms-flex-align: stretch;
+		        align-items: stretch;
+	}
+	.map-container, .else-questions {
+		-webkit-flex-basis: 100%;
+		    -ms-flex-preferred-size: 100%;
+		        flex-basis: 100%;
+	}
+}
+
+/*========== Small Devices, Tablets ==========*/
+@media only screen and (max-width: 767px) {
+	.fearures-container {
+		display: block;
+	}
+	.header-bar-wrap {
+		display: block;
+	}
+	.header-main-info {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		   -moz-box-orient: vertical;
+		   -moz-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: start;
+		-webkit-align-items: flex-start;
+		   -moz-box-align: start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
+	}
+	.hm-logo {
+		-webkit-align-self: flex-start;
+		    -ms-flex-item-align: start;
+		        align-self: flex-start;
+	}
+	span.hm-logo {
+	margin-bottom: -14px;
+    display: inline-block;
+    height: 44px;
+    width: 111px;
+    background: url(https://elite-hammam.ru/img/logo2.png) no-repeat;
+	}
+	
+	.ftll-logo {
+    width: 32%;
+    margin-bottom: -14px;
+    display: inline-block;
+    height: 44px;
+    
+	    
+	}
+	
+	span.ftll-logo {
+	margin-bottom: -14px;
+    display: inline-block;
+    height: 44px;
+    width: 111px;
+    background: url(https://elite-hammam.ru/img/logo2.png) no-repeat;
+	}
+	
+	.hm-site-descr {
+		padding: 5px 0 0 0;
+	}
+	.header-main-screen-wrap {
+		padding: 30px;
+	}
+	.header-main-screen .cst-title-1.title-deco {
+		margin: 0;
+	}
+	h1.title-deco, .cst-title-1.title-deco,
+	h2.title-deco, .cst-title-2.title-deco {
+		padding-left: 0px;
+		position: static;
+		font-size: 24px;
+	}
+	h1.title-deco:before, .cst-title-1.title-deco:before,
+	h2.title-deco:before, .cst-title-2.title-deco:before {
+		display: none;
+	}
+	h1, .cst-title-1 {
+		font-size: 30px;
+	}
+	h2, .cst-title-2 {
+		font-size: 26px;
+	}
+	h3, .cst-title-3 {
+		font-size: 14px;
+	}
+	.hac-item {
+		width: 100%;
+		padding-left: 0;
+	}
+	.hac-item br {
+		display: none;
+	}
+	.hac-item svg {
+		display: block;
+		float: left;
+		width: 52px;
+		height: 52px;
+		margin: 10px 15px 10px 0;
+		padding: 0;
+	}
+	.ms-cts-wrap {
+		text-align: center;
+	}
+	.ms-cts-wrap .btn {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.sct-info-wrap {
+		padding: 0 30px;
+	}
+	.sct-header {
+		margin-bottom: 30px;
+	}
+	.sct-works, .sct-demo, .sct-design-prj {
+		margin: 30px 0;
+	}
+	.demo-video, .presentation-form {
+		margin-top: 50px;
+	}
+	.dps-img {
+		height: 375px;
+	}
+	.sct-process {
+		padding: 45px 30px 20px 30px;
+	}
+	.sct-process .sct-info-wrap {
+		margin: 0;
+		padding: 0;
+	}
+	.prc-item.prc-cta {
+		text-align: center;
+		display: block;
+		width: 100%;
+	}
+	.prc-item .btn {
+		margin-top: 15px;
+	}
+	.sct-features .sct-info-wrap {
+		margin: 0;
+		padding: 0;
+	}
+	.sct-process-wrap {
+		padding: 0 30px;
+		margin: 0 0 45px 0;
+	}
+	.map-container p {
+		text-align: center;
+	}
+	.sct-footer {
+		padding: 30px 0;
+	}
+	.footer-creators, .footer-copyright {
+		text-align: center;
+	}
+	.ftl-left, .ftl-right {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.ftl-left {
+		margin-bottom: 25px;
+		padding-right: 0;
+	}
+	.ftll-site-descr {
+		width: 300px;
+		margin: 0 auto;
+	}
+	.main-menu {
+		text-align: center;
+	}
+	.main-menu li a {
+		padding: 8px;
+	}
+	.main-menu li:first-child a {
+		margin-left: 0;
+	}
+	.main-menu li:last-child a {
+		margin-right: 0;
+	}
+	.map-container {
+		margin-bottom: 50px;
+	}
+	.else-questions > p {
+		margin-top: 10px;
+	}
+}
+
+/*========== Extra Small Devices, Phones ==========*/
+@media only screen and (max-width: 479px) {
+	.header-bar-wrap {
+		display: block;
+	}
+	.hc-phone {
+		text-align: center !important;
+	}
+	.header-main-info {
+		display: block;
+		text-align: center;
+		padding-bottom: 15px;
+		width: 100%;
+		float: none;
+	}
+	.header-callback {
+		display: block;
+		width: 100%;
+		float: none;
+	}
+	.hm-logo {
+		display: block !important;
+		margin: 0 auto;
+	}
+	.hc-title {
+		display: none !important;
+	}
+	.hc-callback {
+		text-align: center !important;
+	}
+	.gl-col {
+		float: none !important;
+	}
+	.glr-custom .gl-col, .glr-4 .gl-col, .glr-3 .gl-col {
+		width: 100% !important;
+	}
+	.glr-custom .gl-item, .glr-4 .gl-item, .glr-3 .gl-item {
+		width: 100% !important;
+		height: 150px !important;
+	}
+	.prc-item {
+		display: block;
+		width: 100%;
+		float: none;
+	}
+	.prci-num {
+		font-size: 22px;
+	}
+	.fts-item {
+		-webkit-flex-basis: 100%;
+		    -ms-flex-preferred-size: 100%;
+		        flex-basis: 100%;
+		padding-right: 0;
+		margin: 10px 0;
+	}
+	.demo-video {
+		height: 200px;
+	}
+	.demo-video iframe {
+		height: 200px;
+	}
+}
+
+/*========== Custom, iPhone Retina ==========*/
